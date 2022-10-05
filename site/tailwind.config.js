@@ -5,7 +5,19 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        blenderProHeavy: "BlenderProHeavy",
+        blenderProBold: "BlenderProBold",
+      },
+      colors: {
+        steelPink: "#CB1DCD",
+        raisinBlack: "#272932",
+      },
+      backgroundImage: {
+        "banner-main": "url('/banner-main.svg')",
+      },
+    },
   },
   plugins: [],
 };

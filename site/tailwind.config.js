@@ -13,9 +13,17 @@ module.exports = {
       colors: {
         steelPink: "#CB1DCD",
         raisinBlack: "#272932",
+        richLemon: "#FDF500",
+        electricBlue: "#37EBF3",
       },
       backgroundImage: {
         "banner-main": "url('/banner-main.svg')",
+        "divider-articles-top": "url('/divider-articles-top.svg')",
+        "divider-articles-bottom": "url('/divider-articles-bottom.svg')",
+        "divider-title-text": "url('/divider-title-text.svg')",
+        "divider-article-title-dark": "url('/divider-article-title-dark.svg')",
+        "divider-article-title-light":
+          "url('/divider-article-title-light.svg')",
       },
     },
   },

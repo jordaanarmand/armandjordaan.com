@@ -18,6 +18,8 @@ module.exports = {
       },
       backgroundImage: {
         "banner-main": "url('/banner-main.webp')",
+        "divider-main": "url('/divider-main.svg')",
+        "divider-main-horizontal": "url('/divider-main-horizontal.svg')",
         "divider-articles-top": "url('/divider-articles-top.svg')",
         "divider-articles-bottom": "url('/divider-articles-bottom.svg')",
         "divider-title-text": "url('/divider-title-text.svg')",

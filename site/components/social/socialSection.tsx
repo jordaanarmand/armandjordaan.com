@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import SocialItem from "./socialItem";
 
 interface SocialSectionProps {}
 
@@ -20,106 +21,50 @@ const SocialSection: React.FC<SocialSectionProps> = () => {
           </div>
           <div className="grow">
             <div className="flex flex-row space-x-5">
-              <a
-                className="group"
-                href="https://github.com/jordaanarmand"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="h-[48px] w-[48px] bg-electricBlue group-hover:cursor-pointer group-hover:bg-white"
-                  style={{
-                    clipPath:
-                      "polygon(0% 70%, 0% 0%, 100% 0%, 100% 100%, 30% 100%)",
-                  }}
-                >
-                  <div className="flex h-full items-center justify-center">
-                    <div className="m-auto">
-                      <Image
-                        src="/social-github.svg"
-                        alt="github"
-                        width={26}
-                        height={26}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                className="group"
-                href="https://github.com/jordaanarmand"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="h-[48px] w-[48px] bg-electricBlue group-hover:cursor-pointer group-hover:bg-white"
-                  style={{
-                    clipPath:
-                      "polygon(0% 70%, 0% 0%, 100% 0%, 100% 100%, 30% 100%)",
-                  }}
-                >
-                  <div className="flex h-full items-center justify-center">
-                    <div className="m-auto">
-                      <Image
-                        src="/social-github.svg"
-                        alt="github"
-                        width={26}
-                        height={26}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                className="group"
-                href="https://github.com/jordaanarmand"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="h-[48px] w-[48px] bg-electricBlue group-hover:cursor-pointer group-hover:bg-white"
-                  style={{
-                    clipPath:
-                      "polygon(0% 70%, 0% 0%, 100% 0%, 100% 100%, 30% 100%)",
-                  }}
-                >
-                  <div className="flex h-full items-center justify-center">
-                    <div className="m-auto">
-                      <Image
-                        src="/social-github.svg"
-                        alt="github"
-                        width={26}
-                        height={26}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                className="group"
-                href="https://github.com/jordaanarmand"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="h-[48px] w-[48px] bg-electricBlue group-hover:cursor-pointer group-hover:bg-white"
-                  style={{
-                    clipPath:
-                      "polygon(0% 70%, 0% 0%, 100% 0%, 100% 100%, 30% 100%)",
-                  }}
-                >
-                  <div className="flex h-full items-center justify-center">
-                    <div className="m-auto">
-                      <Image
-                        src="/social-github.svg"
-                        alt="github"
-                        width={26}
-                        height={26}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </a>
+              <SocialItem
+                link={"https://github.com/jordaanarmand"}
+                altText={"github"}
+                imgType={"github"}
+                imgWidth={26}
+                imgHeight={26}
+              />
+              <SocialItem
+                link={
+                  "https://www.youtube.com/channel/UCm4-aTDRUHGUb9T3EgNWDog"
+                }
+                altText={"youtube"}
+                imgType={"youtube"}
+                imgWidth={26}
+                imgHeight={26}
+              />
+              <SocialItem
+                link={"https://www.linkedin.com/in/armandjordaan/"}
+                altText={"linkedin"}
+                imgType={"linkedin"}
+                imgWidth={26}
+                imgHeight={26}
+              />
+              <SocialItem
+                link={"https://twitter.com/jordaan_armand"}
+                altText={"twitter"}
+                imgType={"twitter"}
+                imgWidth={26}
+                imgHeight={26}
+              />
+              <SocialItem
+                link={"https://www.instagram.com/jordaan_armand/"}
+                altText={"instagram"}
+                imgType={"instagram"}
+                imgWidth={26}
+                imgHeight={26}
+              />
+              <SocialItem
+                link={"https://www.facebook.com/armandjordaan77/"}
+                altText={"facebook"}
+                imgType={"facebook"}
+                imgWidth={26}
+                imgHeight={26}
+              />
             </div>
           </div>
         </div>

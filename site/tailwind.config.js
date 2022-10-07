@@ -17,7 +17,7 @@ module.exports = {
         electricBlue: "#37EBF3",
       },
       backgroundImage: {
-        "banner-main": "url('/banner-main.svg')",
+        "banner-main": "url('/banner-main.webp')",
         "divider-articles-top": "url('/divider-articles-top.svg')",
         "divider-articles-bottom": "url('/divider-articles-bottom.svg')",
         "divider-title-text": "url('/divider-title-text.svg')",

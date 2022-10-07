@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 interface SocialItemProps {
   link: string;
@@ -32,7 +31,7 @@ const SocialItem: React.FC<SocialItemProps> = ({
         >
           <div className="flex h-full items-center justify-center">
             <div className="m-auto">
-              <Image
+              <img
                 src={`/social-${imgType}.svg`}
                 alt={altText}
                 width={imgWidth}

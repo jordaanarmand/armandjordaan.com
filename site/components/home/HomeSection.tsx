@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import SocialItem from "../social/socialItem";
 
 interface HomeSectionProps {}
@@ -22,7 +21,7 @@ const HomeSection: React.FC<HomeSectionProps> = () => {
             </div>
           </div>
           <div className="mr-10 basis-5">
-            <Image
+            <img
               src="/divider-main.svg"
               alt="divider"
               width={18}

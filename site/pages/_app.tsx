@@ -4,7 +4,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <html lang="en">
+    <div>
       <Head>
         <title>Armand Jordaan | Full Stack DOTNET Software Developer</title>
         <meta
@@ -39,10 +39,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#FDF500" />
         <meta name="robots" content="index, follow, archive" />
       </Head>
-      <body>
-        <Component {...pageProps} />
-      </body>
-    </html>
+      <Component {...pageProps} />
+    </div>
   );
 }
 

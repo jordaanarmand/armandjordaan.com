@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="w-full">
       <HomeSection />
-      {/*<ArticlesSection />*/}
+      <ArticlesSection />
     </div>
   );
 };

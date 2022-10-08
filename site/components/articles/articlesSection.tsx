@@ -18,6 +18,7 @@ const ArticlesSection: React.FC<ArticlesProps> = () => {
             if (_.isSpotlight)
               return (
                 <SpotlightArticle
+                  key={i}
                   title={_.title}
                   link={_.link}
                   isSpotlight={_.isSpotlight}
@@ -27,6 +28,7 @@ const ArticlesSection: React.FC<ArticlesProps> = () => {
 
             return (
               <Article
+                key={i}
                 title={_.title}
                 link={_.link}
                 isSpotlight={_.isSpotlight}

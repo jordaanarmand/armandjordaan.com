@@ -82,9 +82,9 @@ const HomeSection: React.FC<HomeSectionProps> = () => {
                       imgHeight={26}
                     />
                     <SocialItem
-                      link={"https://www.facebook.com/armandjordaan77/"}
-                      altText={"facebook"}
-                      imgType={"facebook"}
+                      link={"https://medium.com/@armandjordaan6"}
+                      altText={"medium"}
+                      imgType={"medium"}
                       imgWidth={26}
                       imgHeight={26}
                     />

@@ -34,6 +34,31 @@ function MyApp({ Component, pageProps }: AppProps) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://armandjordaan.com/" />
+        <meta
+          property="og:title"
+          content="Armand Jordaan | Full Stack DOTNET Software Developer"
+        />
+        <meta
+          property="og:description"
+          content="A dynamic and creative full-stack Dotnet software developer with over 9 years of experience in producing robust code for high-volume companies in various industries"
+        />
+        <meta property="og:image" content="/website-preview.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="http://armandjordaan.com/" />
+        <meta
+          property="twitter:title"
+          content="Armand Jordaan | Full Stack DOTNET Software Developer"
+        />
+        <meta
+          property="twitter:description"
+          content="A dynamic and creative full-stack Dotnet software developer with over 9 years of experience in producing robust code for high-volume companies in various industries"
+        />
+        <meta property="twitter:image" content="/website-preview.png" />
+
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="msapplication-TileColor" content="#FDF500" />
         <meta name="theme-color" content="#FDF500" />

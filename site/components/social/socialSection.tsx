@@ -51,7 +51,7 @@ const SocialSection: React.FC<SocialSectionProps> = () => {
                 imgHeight={26}
               />
               <SocialItem
-                link={"https://www.instagram.com/jordaan_armand/"}
+                link={"https://www.instagram.com/blackbeardcoding/"}
                 altText={"instagram"}
                 imgType={"instagram"}
                 imgWidth={26}

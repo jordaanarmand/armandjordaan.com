@@ -20,6 +20,7 @@ const ArticlesSection: React.FC<ArticlesProps> = () => {
                 <SpotlightArticle
                   key={i}
                   title={_.title}
+                  subtitle={_.subtitle}
                   link={_.link}
                   isSpotlight={_.isSpotlight}
                   datePublished={_.datePublished}
@@ -30,6 +31,7 @@ const ArticlesSection: React.FC<ArticlesProps> = () => {
               <Article
                 key={i}
                 title={_.title}
+                subtitle={_.subtitle}
                 link={_.link}
                 isSpotlight={_.isSpotlight}
                 datePublished={_.datePublished}

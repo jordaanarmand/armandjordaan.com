@@ -4,6 +4,7 @@ import { Article } from "./ArticlesData";
 const SpotlightArticle: React.FC<Article> = ({
   datePublished,
   title,
+  subtitle,
   link,
 }) => {
   return (
@@ -14,7 +15,7 @@ const SpotlightArticle: React.FC<Article> = ({
       className="col-span-12 flex h-[310px] flex-col bg-electricBlue pt-8 pl-8 pr-8 pb-8
          text-raisinBlack hover:cursor-pointer hover:bg-white md:col-span-12 lg:col-span-4"
       style={{
-        clipPath: "polygon(0% 100%, 0% 10%, 10% 0%, 100% 0%, 100% 100%)",
+        clipPath: "polygon(0% 100%, 0% 10%, 5% 0%, 100% 0%, 100% 100%)",
       }}
     >
       <div>
@@ -25,6 +26,9 @@ const SpotlightArticle: React.FC<Article> = ({
         <div className="overflow-hidden text-clip">
           <p className="font-blenderProBold text-2xl text-raisinBlack">
             {title}
+          </p>
+          <p className="font-blenderProBold text-xl text-raisinBlack">
+            {subtitle}
           </p>
         </div>
       </div>

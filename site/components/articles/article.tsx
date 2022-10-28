@@ -1,7 +1,12 @@
 import React from "react";
 import { Article } from "./ArticlesData";
 
-const Article: React.FC<Article> = ({ datePublished, title, link }) => {
+const Article: React.FC<Article> = ({
+  datePublished,
+  title,
+  subtitle,
+  link,
+}) => {
   return (
     <a
       href={link}
@@ -16,6 +21,9 @@ const Article: React.FC<Article> = ({ datePublished, title, link }) => {
       </div>
       <div className="">
         <p className="font-blenderProBold text-2xl">{title}</p>
+        <p className="font-blenderProBold text-xl text-raisinBlack">
+          {subtitle}
+        </p>
       </div>
     </a>
   );

@@ -75,16 +75,16 @@ const HomeSection: React.FC<HomeSectionProps> = () => {
                       imgHeight={26}
                     />
                     <SocialItem
-                      link={"https://www.instagram.com/jordaan_armand/"}
+                      link={"https://www.instagram.com/blackbeardcoding/"}
                       altText={"instagram"}
                       imgType={"instagram"}
                       imgWidth={26}
                       imgHeight={26}
                     />
                     <SocialItem
-                      link={"https://medium.com/@armandjordaan6"}
-                      altText={"medium"}
-                      imgType={"medium"}
+                      link={"https://armandjordaan.hashnode.dev/"}
+                      altText={"blog"}
+                      imgType={"blog"}
                       imgWidth={26}
                       imgHeight={26}
                     />

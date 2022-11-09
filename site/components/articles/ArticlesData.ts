@@ -8,11 +8,27 @@ export interface Article {
 
 export const data: Article[] = [
   {
+    title: "PART 1: Introduction To Azure Container Apps",
+    subtitle:
+      "Series: Building Microservices using Azure Container Apps and Terraform",
+    datePublished: "2022.10.30",
+    link: "https://armandjordaan.hashnode.dev/part-1-introduction-to-azure-container-apps",
+    isSpotlight: true,
+  },
+  {
+    title: "PART 0: Adding some spicy to Microservice vs Monolith",
+    subtitle:
+      "Series: Building Microservices using Azure Container Apps and Terraform",
+    datePublished: "2022.10.24",
+    link: "https://armandjordaan.hashnode.dev/overview-azure-load-balancing",
+    isSpotlight: false,
+  },
+  {
     title: "Overview: Azure load balancing.",
     subtitle: "What are the different types of Azure Loadbalancer services?",
     datePublished: "2022.10.14",
     link: "https://armandjordaan.hashnode.dev/overview-azure-load-balancing",
-    isSpotlight: true,
+    isSpotlight: false,
   },
   {
     title:
